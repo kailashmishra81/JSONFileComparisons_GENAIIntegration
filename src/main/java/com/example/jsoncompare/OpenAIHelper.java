@@ -33,7 +33,7 @@ public class OpenAIHelper {
                 + "\nOnly explain what changed, no extra commentary.";
 
         // Read OpenAI API key from environment variable
-//        String apiKey = System.getenv("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");
+
         if (apiKey == null || apiKey.isEmpty()) {
             throw new RuntimeException("OpenAI API key not set in environment variable OPENAI_API_KEY");
         }
