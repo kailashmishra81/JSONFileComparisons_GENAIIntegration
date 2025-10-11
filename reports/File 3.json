@@ -1,0 +1,79 @@
+{
+  "orderId": 98765,
+  "customer": {
+    "customerId": 12345,
+    "name": "Kailash Doe",
+    "email": "john.doe@example.com"
+
+
+  },
+  "items": [
+    {
+      "productId": 101,
+      "name": "Wireless Mouse",
+      "quantity": 2,
+      "price": 25.99,
+      "dimensions": {
+        "length": 10,
+        "width": 6,
+        "height": 4
+      },
+      "tags": ["electronics", "accessories", "wireless"]
+    },
+    {
+      "productId": 102,
+      "name": "Mechanical Keyboard",
+      "quantity": 1,
+      "price": 75.5,
+      "dimensions": {
+        "length": 18,
+        "width": 6,
+        "height": 1.5
+      },
+      "tags": ["electronics", "keyboard", "gaming"]
+    },
+    {
+      "productId": 103,
+      "name": " Keyboard",
+      "quantity": 1,
+      "price": 75.5,
+      "dimensions": {
+        "length": 18,
+        "width": 6,
+        "height": 1.5
+      },
+      "tags": ["electronics", "keyboard", "gaming"]
+    }
+  ],
+  "shipping": {
+    "method": "FedEx",
+    "alternateMethod": "DHL",
+    "cost": 12.99,
+    "address": {
+      "street": "456 Oak Street",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62705"
+    },
+    "tracking": [
+      {"status": "Shipped", "timestamp": "2025-10-11T08:30:00Z"},
+      {"status": "In Transit", "timestamp": "2025-10-11T12:45:00Z"}
+    ]
+  },
+  "payment": {
+    "method": "Credit Card",
+    "card1": {
+      "brand": "Visa",
+      "last4": "1234",
+      "expiry": "12/26"
+    },
+    "card2": {
+      "brand": "MasterCard",
+      "last4": "1234",
+      "expiry": "12/26"
+    },
+
+    "transactionId": "txn_987654321"
+  },
+  "notes": "Gift wrap the items and include a handwritten note."
+}
