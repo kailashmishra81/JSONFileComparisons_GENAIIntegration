@@ -18,13 +18,13 @@ When method get
 Then status 200
 * def fileName = 'target/json-output/Feature1/' + scenarioName + '/response_' + scenarioName + "_" + timestamp + '.json'
     * eval karate.write(karate.pretty(response), fileName)
- #   * def folderPath = 'target/target/json-output/Feature1/API Call 1'
- #   * def files = JsonFileHelper.getJsonFilesFromFolder(folderPath)
-
-  #  * def files = JsonFileHelper.getAllJsonFilesRecursively(folderPath)
-
-
- #   * def summary = JsonComparator.summarizeAdditionsRemovals(files)
+#    * def folderPath = 'target/target/json-output/Feature1/API Call 1'
+#    * def files = JsonFileHelper.getJsonFilesFromFolder(folderPath)
+#
+#    * def files = JsonFileHelper.getAllJsonFilesRecursively(folderPath)
+#
+#
+#    * def summary = JsonComparator.summarizeAdditionsRemovals(files)
 #    * print summary
 
 
@@ -40,7 +40,7 @@ Then status 200
 #
 #  * def summary = JsonComparator.summarizeAdditionsRemovals(files)
 #  * print summary
-
+#
 
 
   Scenario: API Call 3
@@ -49,11 +49,11 @@ Then status 200
     Then status 200
     * def fileName = 'target/json-output/Feature1/' + scenarioName + '/response_' + scenarioName + "_"+ timestamp + '.json'
     * eval karate.write(karate.pretty(response), fileName)
-  #  * def folderPath = 'target/target/json-output/Feature1/API Call 3'
- #   * def files = JsonFileHelper.getJsonFilesFromFolder(folderPath)
- #   * def files = JsonFileHelper.getAllJsonFilesRecursively(folderPath)
-
-  #  * def summary = JsonComparator.summarizeAdditionsRemovals(files)
- #   * print summary
+#    * def folderPath = 'target/target/json-output/Feature1/API Call 3'
+#    * def files = JsonFileHelper.getJsonFilesFromFolder(folderPath)
+#    * def files = JsonFileHelper.getAllJsonFilesRecursively(folderPath)
+#
+#    * def summary = JsonComparator.summarizeAdditionsRemovals(files)
+#    * print summary
 
 
