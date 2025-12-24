@@ -88,20 +88,6 @@ Development notes
 - The comparator uses Jackson (`ObjectMapper`) to parse JSON files and a recursive diff algorithm to detect added/removed fields. It uses a small DTO `DiffResult` for per-diff info.
 - The project contains a small helper `ScenarioResponseCollector` to read files and return a LinkedHashMap of filename → content to preserve order.
 
-Contributing
-------------
-- Fork, create a feature branch, and open a pull request. Include tests for new behavior.
 
-License & attribution
----------------------
-- Add your preferred license here (e.g., MIT) before publishing to GitHub.
 
-Contact / Help
---------------
-- If you want, I can:
-  - Add a MOCK mode for `OpenAIHelper` so you can run end-to-end tests without a real API key,
-  - Convert AI output to structured JSON for deterministic parsing,
-  - Improve report styling (collapsible sections, icons, download links).
-
-Thank you — tell me if you want this saved into `README.md` in the project root and I will create the file for you.
 
